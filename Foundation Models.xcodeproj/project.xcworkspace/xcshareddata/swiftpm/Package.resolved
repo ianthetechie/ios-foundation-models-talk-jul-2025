@@ -1,0 +1,24 @@
+{
+  "originHash" : "631f401c7c8bcddd398eb44c69f838a7f88c86da595afa11b8fd3dab7f771908",
+  "pins" : [
+    {
+      "identity" : "anycodable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Flight-School/AnyCodable",
+      "state" : {
+        "revision" : "862808b2070cd908cb04f9aafe7de83d35f81b05",
+        "version" : "0.6.7"
+      }
+    },
+    {
+      "identity" : "stadiamaps-api-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stadiamaps/stadiamaps-api-swift",
+      "state" : {
+        "revision" : "232878311cba0cc43c43e6b7b994215f3d7ea65c",
+        "version" : "7.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
