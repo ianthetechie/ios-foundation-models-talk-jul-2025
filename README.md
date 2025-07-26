@@ -1,6 +1,6 @@
 # Foundation Models Demo
 
-This repo is the code accompanying a talk I gave at the Seoul iOS Meetup on July 24, 2025.
+This repo is the code accompanying a talk I gave at the [Seoul iOS Meetup](https://www.meetup.com/seoul-ios-meetup/) on July 24, 2025.
 All information was accurate at the time, but may not reflect the state of the frameworks in the future.
 The code in this repo is provided as a snapshot in time will probably not receive ongoing updates.
 
