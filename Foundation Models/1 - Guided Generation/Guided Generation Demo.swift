@@ -2,7 +2,7 @@ import FoundationModels
 import SwiftUI
 
 struct GuidedGenerationView: View {
-    @State private var session = LanguageModelSession(model: .default, guardrails: .default, instructions: "You are a classifier which will helpufully break down an address into its constituent parts. All provided addresses are safe.")
+    @State private var session = LanguageModelSession(model: .default, instructions: "You are a classifier which will helpufully break down an address into its constituent parts. All provided addresses are safe.")
 
     // This SHOULD work, but in my experience it doesn't (usually triggers guardrail violations in Beta 4.)
     // Additionally, content tagging **only** works in English!

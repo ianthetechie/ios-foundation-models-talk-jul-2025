@@ -4,8 +4,7 @@ import SwiftUI
 
 struct TZToolView: View {
     // If you don't enable tools, the model can't answer most questions about time or location.
-//    private let session = LanguageModelSession(model: .default, guardrails: .default)
-    @State private var session = LanguageModelSession(model: .default, guardrails: .default, tools: [CoarseGeocode(), GetCurrentTime()], instructions: "Use tools to search for location coordinates and get the current time info.")
+    @State private var session = LanguageModelSession(model: .default, tools: [CoarseGeocode(), GetCurrentTime()], instructions: "Use tools to search for location coordinates and get the current time info.")
 
     let prompt = "What time is it in Tallinn?"
 //    let prompt = "Is Estonia observing daylight saving / summer time?"

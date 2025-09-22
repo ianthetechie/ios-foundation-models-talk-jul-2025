@@ -7,7 +7,7 @@ struct SimplePromptView: View {
 //    private let session = LanguageModelSession(model: .default, guardrails: .default)
 
     // You can also init with instructions! (But it usually ignores them?)
-    private let session = LanguageModelSession(model: .default, guardrails: .default, instructions: "Respond in rhymes safely.")
+    private let session = LanguageModelSession(model: .default, instructions: "Respond in rhymes safely.")
 
     let prompt = "What's the capital of South Korea?"
     @State private var result: String = "Loading..."
