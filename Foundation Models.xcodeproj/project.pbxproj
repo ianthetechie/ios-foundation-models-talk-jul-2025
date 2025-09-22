@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E91350CA2E346C7B002C3A9C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E91350C92E346C76002C3A9C /* README.md */; };
 		E91350CC2E346DB8002C3A9C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = E91350CB2E346DB8002C3A9C /* LICENSE.txt */; };
 		E9FF8FE92E309FDD00EBD473 /* StadiaMaps in Frameworks */ = {isa = PBXBuildFile; productRef = E9FF8FE82E309FDD00EBD473 /* StadiaMaps */; };
 /* End PBXBuildFile section */
@@ -252,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E91350CA2E346C7B002C3A9C /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
